@@ -1,3 +1,3 @@
-# PSDGator Boilerplate
+# PSDGator Boilerplate with SASS
 
 
