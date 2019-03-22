@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+
+/* Example */
+header {
+    background: url(../images/bg-header.jpg) center top no-repeat;
+    background-size: cover;
+    #logo {
+        display: inline-block;
+        @media (max-width: $sm-max) {
+            margin: 0 auto;
+            display: block;
+        }
+    }
+}
