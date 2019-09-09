@@ -2,16 +2,24 @@
 /* 			            01. Variables                          */
 /* ========================================================== */
 $font-size-root:14px!default;
-$grid-gutter-width:20px!default;
+$grid-gutter:15px!default;
+$grid-max-innerwidth: 1140px !default;
+$grid-max-width: $grid-max-innerwidth + ($grid-gutter * 2) !default;
+$grid-columns: 12 !default;
 
 /* ========================================================== */
 /* 			            02. Colors                          */
 /* ========================================================== */
-$main-font-color:#2d2d2c!default;
-$body-background-color:#f8f8f8!default;
+$main-font-color:#33393e!default;
 
 /* ========================================================== */
 /* 			         03. Breakpoints                          */
 /* ========================================================== */
-$sm-max: 575px!default;
-$md-max: 767px!default;
+$breakpoint-sm: 767px !default;
+$breakpoint-md: $grid-max-width !default;
+
+$breakpoints: (
+  '': false,
+  'md': $breakpoint-md,
+  'sm': $breakpoint-sm,
+);

@@ -9,9 +9,8 @@ header {
     background-size: cover;
     #logo {
         display: inline-block;
-        @media (max-width: $sm-max) {
-            margin: 0 auto;
-            display: block;
+        @include media('<=md'){
+          padding: 0 40px;
         }
     }
 }

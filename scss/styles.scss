@@ -1,20 +1,22 @@
 //----------------------------------*\
-// SCSS MIXINS
-//----------------------------------*/
-@import 'mixins/various.scss';
-
-//----------------------------------*\
-// CONFIG MODULES
+// CONFIG VARS
 //----------------------------------*/
 @import 'modules/_vars.scss';
+
+
+//----------------------------------*\
+// SCSS MIXINS
+//----------------------------------*/
+@import 'mixins/_various.scss';
+@import 'mixins/_includemedia.scss';
+@import 'mixins/_flexbox.scss';
+
 
 //----------------------------------*\
 // PARTIALS
 //----------------------------------*/
 @import 'partials/_normalize.scss';
 @import 'partials/_grid.scss';
-//@import 'partials/_grid-flex.scss';
-@import 'partials/_misc.scss';
 @import 'partials/_general.scss';
 @import 'partials/_header.scss';
 @import 'partials/_footer.scss';
